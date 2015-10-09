@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion":"1",
+  "Image": {
+    "Name": "ufoscout/aws-stack-test"
+  },
+  "Ports": [
+    {"ContainerPort": "8080"}
+  ],
+  "Logging": "/opt/aws-stack-test/target/logs"
+}
+
